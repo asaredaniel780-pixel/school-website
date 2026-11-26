@@ -1,0 +1,95 @@
+
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(29, 219, 240);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+#container{
+    background-color: white;
+    align-content: center;
+    align-items: center;
+    padding: 20px;
+    margin:20px;
+    border-radius: 15px;
+    width:fit-content;
+    height: fit-content;
+}
+
+h1{
+    color: blue;
+    text-align: center;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+#personal{
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#pd{
+    border: bold;
+    border-color: black;
+}
+.ll{display:block;
+width: 660px;
+height:35px;
+border: 50px bold;
+transition: 0.3s;
+padding-top: 0px;
+margin-top: 0px;
+font-size: 14px;
+box-shadow: 10px;
+}
+label{
+    font-size: 18px;
+    font-family: calibri;
+}
+
+#bb{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.ccc{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.btn{
+    background-color: red;
+    margin-top: 30px;
+     display: flex;
+    justify-content: flex-end;
+    
+    
+}
+
+.f{
+    padding-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 0px;
+    margin-top: 10;
+    text-align: center;
+}
+
+.button-container{
+    display:flex;
+    justify-content:right;
+    margin-top: 20px;
+}
